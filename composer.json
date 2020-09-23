@@ -6,12 +6,18 @@
     "keywords": ["library", "aop", "php", "aspect"],
     "homepage": "http://go.aopphp.com/",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/xfuturomax/parser-reflection"
+        }
+    ],
 
     "require": {
         "php": ">=7.2.0",
         "jakubledl/dissect": "~1.0",
         "doctrine/annotations": "^1.2.3",
-        "goaop/parser-reflection": "~2.0",
+        "goaop/parser-reflection": "dev-fix/support-of-new-php-parser",
         "doctrine/cache": "^1.5",
         "laminas/laminas-code": "^3.1",
         "symfony/finder": "^3.4|^4.2|^5.0"
